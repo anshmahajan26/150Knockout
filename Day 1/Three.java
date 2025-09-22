@@ -1,3 +1,22 @@
-//Two some take from apna college
-for brute force.
-//check using hashmap also
+//for brute force.
+//here we give target and check when that target hit during sum pair.
+public class PairWithSumBruteForce {
+    public static boolean hasPair(int[] nums, int target) {
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
+                    System.out.println("Pair found: " + nums[i] + " + " + nums[j]);
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+
+        System.out.println(hasPair(nums, target)); // true, because 2 + 7 = 9
+    }
+}
