@@ -13,6 +13,7 @@ public class Freq{
             }
         }
 
+
         for(Map.Entry entry:hm.entrySet()){
             System.out.println("Element | Frequency");
             System.out.println(entry.getKey() + "   "+ entry.getValue());
