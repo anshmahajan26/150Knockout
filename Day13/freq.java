@@ -5,7 +5,7 @@ public class Freq{
         HashMap <Integer, Integer> hm = new HashMap<Integer, Integer>();
         for(int i =0; i<arr.length; i++){
             if(hm.containsKey(arr[i])){
-                hm.put(arr[i], hm.get(arr[i]+1));  //if arr of i present then arr[i]+1
+                hm.put(arr[i], hm.get(arr[i])+1);  //if arr of i present then arr[i]+1
 
             }
             else{
