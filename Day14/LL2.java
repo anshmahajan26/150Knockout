@@ -13,6 +13,6 @@ class LL2{
      public static node head;
         public static node tail;
     public static void main (string[args]){
-        
+        LL2 list 
     }
 }
