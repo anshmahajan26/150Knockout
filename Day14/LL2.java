@@ -14,6 +14,6 @@ class LL2{
         public static node tail;
     public static void main (string[args]){
         LL2 list = new LL2();
-        
+        List.add(1);
     }
 }
